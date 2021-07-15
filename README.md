@@ -1,5 +1,11 @@
 # @semantic-release/gitlab
 
+**FIXED 400 Issue during release**, see,
+
+- [Error in request to create release #192](https://github.com/semantic-release/gitlab/issues/192)
+- [code 400 #239](https://github.com/semantic-release/gitlab/issues/239)
+
+
 [**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a
 [GitLab release](https://docs.gitlab.com/ee/user/project/releases/).
 
