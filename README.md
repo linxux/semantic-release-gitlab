@@ -20,7 +20,7 @@
 ## Install
 
 ```bash
-$ npm install @semantic-release/gitlab -D
+$ npm install @j4s0n/semantic-release-gitlab -D
 ```
 
 ## Usage

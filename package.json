@@ -1,7 +1,7 @@
 {
-  "name": "@linxux/semantic-release-gitlab",
+  "name": "@j4s0n/semantic-release-gitlab",
   "description": "semantic-release plugin to publish a GitLab release",
-  "version": "6.2.2-beta",
+  "version": "6.2.2-beta2",
   "author": "Pierre Vanduynslager (https://twitter.com/@pvdlg_)",
   "ava": {
     "files": [
@@ -81,7 +81,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/semantic-release/gitlab.git"
+    "url": "git+https://github.com/semantic-release/gitlab.git"
   },
   "scripts": {
     "lint": "xo",
@@ -101,5 +101,9 @@
     "extends": [
       "github>semantic-release/.github"
     ]
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
